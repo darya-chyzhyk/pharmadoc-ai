@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+
+# Data (archivos grandes)
+data/raw/*.json
+data/raw/*.csv
+data/processed/*.parquet
+data/vector_db/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Model files
+*.pkl
+*.h5
+*.pt
+
+# Logs
+*.log
+
+# Distribution
+dist/
+build/
+*.egg-info/
